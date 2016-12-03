@@ -15,9 +15,8 @@ def Evaluation(Word1,Word2):
 	EvalPersent=(SameValue/maxi)*100
 	
 
-	print SameValue
-	print EvalPersent
-	print Word2[0]
+	return EvalPersent
 
-Evaluation('miltos','miltiadis')
+Eval=Evaluation('miltos','miltiadis')
 
+print Eval
